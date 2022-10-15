@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+  box-sizing: border-box;
+  outline: none;
+}
+.container {
+  width: 100%;
+  height: 114.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./imgs/Fondo3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+*::selection {
+  background: #0a68cc;
+  color: white;
+}
